@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .game{
+        width: 300px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+        text-align: center;
+
+        border-radius: 20px;
+        box-shadow:6px 6px 25px 0px #000000;
+
+        gap: 1rem;
+    }
+}
